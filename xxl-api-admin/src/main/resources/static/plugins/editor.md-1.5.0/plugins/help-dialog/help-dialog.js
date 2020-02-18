@@ -4,7 +4,7 @@
  * @file        help-dialog.js
  * @author      pandao
  * @version     1.2.0
- * @updateTime  2015-03-08
+ * @updateTime  2019-03-08
  * {@link       https://github.com/pandao/editor.md}
  * @license     MIT
  */

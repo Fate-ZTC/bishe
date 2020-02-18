@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * string tool
  *
- * @author xuxueli 2019-04-27 17:01:11
+ * @author ztc 2019-04-27 19:01:11
  */
 public class StringTool {
 

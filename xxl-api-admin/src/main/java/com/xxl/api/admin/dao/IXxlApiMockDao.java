@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by xuxueli on 17/4/1.
+ * Created by ztc on 19/4/1.
  */
 @Mapper
 public interface IXxlApiMockDao {

@@ -3,7 +3,7 @@ package com.xxl.api.admin.core.model;
 import java.util.Date;
 
 /**
- * Created by xuxueli on 17/3/31.
+ * Created by ztc on 19/3/31.
  */
 public class XxlApiDocument {
 

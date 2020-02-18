@@ -614,7 +614,7 @@
         else mouseOnTip = false;
       }
     });
-    setTimeout(maybeClear, 1700);
+    setTimeout(maybeClear, 1900);
     cm.on("cursorActivity", clear);
     cm.on('blur', clear);
     cm.on('scroll', clear);

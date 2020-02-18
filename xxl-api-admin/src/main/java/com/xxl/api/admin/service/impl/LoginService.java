@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.math.BigInteger;
 
 /**
- * Created by xuxueli on 17/3/30.
+ * Created by ztc on 19/3/30.
  */
 @Configuration
 public class LoginService {

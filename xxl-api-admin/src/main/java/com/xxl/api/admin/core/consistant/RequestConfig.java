@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by xuxueli on 17/4/1.
+ * Created by ztc on 19/4/1.
  */
 public class RequestConfig {
 

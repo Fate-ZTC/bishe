@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by xuxueli on 17/5/23.
+ * Created by ztc on 19/5/23.
  */
 @Mapper
 public interface IXxlApiBizDao {

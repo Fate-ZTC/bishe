@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author xuxueli 2018-10-25
+ * @author ztc 2018-10-25
  */
 @SpringBootApplication
 public class XxlApiApplication {

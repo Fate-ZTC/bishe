@@ -1,7 +1,7 @@
 package com.xxl.api.admin.core.model;
 
 /**
- * Created by xuxueli on 17/4/1.
+ * Created by ztc on 19/4/1.
  */
 public class XxlApiMock {
 

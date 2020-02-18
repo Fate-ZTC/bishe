@@ -3,7 +3,7 @@ package com.xxl.api.admin.core.model;
 import java.util.List;
 
 /**
- * Created by xuxueli on 17/6/1.
+ * Created by ztc on 19/6/1.
  */
 public class XxlApiDataType {
 

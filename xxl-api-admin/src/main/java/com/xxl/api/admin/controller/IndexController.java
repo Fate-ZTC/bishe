@@ -4,7 +4,9 @@ import com.xxl.api.admin.controller.annotation.PermessionLimit;
 import com.xxl.api.admin.core.model.ReturnT;
 import com.xxl.api.admin.core.model.XxlApiUser;
 import com.xxl.api.admin.core.util.tool.StringTool;
+import com.xxl.api.admin.service.IXxlApiDataTypeService;
 import com.xxl.api.admin.service.impl.LoginService;
+import com.xxl.api.admin.service.impl.XxlApiDataTypeServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * index controller
- * @author xuxueli 2015-12-19 16:13:16
+ * @author ztc 2019-12-19 16:13:16
  */
 @Controller
 public class IndexController {
@@ -71,6 +73,12 @@ public class IndexController {
 	@RequestMapping("/help")
 	public String help() {
 		return "help";
+	}
+
+
+	public static void main(String[] args) {
+		XxlApiDataTypeServiceImpl A = new XxlApiDataTypeServiceImpl();
+		System.out.println(A instanceof  IXxlApiDataTypeService);
 	}
 	
 }

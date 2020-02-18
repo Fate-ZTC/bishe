@@ -134,9 +134,9 @@
 	<footer class="main-footer">
         Powered by <b>XXL-API</b> 1.1.2-SNAPSHOT
 		<div class="pull-right hidden-xs">
-            <strong>Copyright &copy; 2015-${.now?string('yyyy')} &nbsp;
-                <a href="http://www.xuxueli.com/" target="_blank" >xuxueli</a>&nbsp;
-                <a href="https://github.com/xuxueli/xxl-api" target="_blank" >github</a>
+            <strong>Copyright &copy; 2019-${.now?string('yyyy')} &nbsp;
+                <a href="http://www.ztc.com/" target="_blank" >ztc</a>&nbsp;
+                <a href="https://github.com/ztc/xxl-api" target="_blank" >github</a>
             </strong><!-- All rights reserved. -->
 		</div>
 	</footer>

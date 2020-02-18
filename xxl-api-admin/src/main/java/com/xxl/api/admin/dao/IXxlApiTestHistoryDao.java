@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by xuxueli on 2017-04-04 18:40:11
+ * Created by ztc on 2019-04-04 18:40:11
  */
 @Mapper
 public interface IXxlApiTestHistoryDao {

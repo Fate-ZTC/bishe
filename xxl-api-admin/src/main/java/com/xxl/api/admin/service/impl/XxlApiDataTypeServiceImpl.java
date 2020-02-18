@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * @author xuxueli
+ * @author ztc
  */
 @Service
 public class XxlApiDataTypeServiceImpl implements IXxlApiDataTypeService {

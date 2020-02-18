@@ -1,7 +1,7 @@
 package com.xxl.api.admin.core.model;
 
 /**
- * Created by xuxueli on 17/5/23.
+ * Created by ztc on 19/5/23.
  */
 public class XxlApiBiz {
 

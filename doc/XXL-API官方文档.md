@@ -20,17 +20,17 @@ XXL-API 是一个强大易用的API管理平台，提供API的"管理"、"文档
 
 #### 文档地址
 
-- [中文文档](http://www.xuxueli.com/xxl-api/)
+- [中文文档](http://www.ztc.com/xxl-api/)
 
 #### 源码仓库地址
 
 源码仓库地址 | Release Download
 --- | ---
-[https://github.com/xuxueli/xxl-api](https://github.com/xuxueli/xxl-api) | [Download](https://github.com/xuxueli/xxl-api/releases)  
-[http://gitee.com/xuxueli0323/xxl-api](http://gitee.com/xuxueli0323/xxl-api) | [Download](http://gitee.com/xuxueli0323/xxl-api/releases)
+[https://github.com/ztc/xxl-api](https://github.com/ztc/xxl-api) | [Download](https://github.com/ztc/xxl-api/releases)  
+[http://gitee.com/ztc0323/xxl-api](http://gitee.com/ztc0323/xxl-api) | [Download](http://gitee.com/ztc0323/xxl-api/releases)
 
 #### 技术交流
-- [社区交流](http://www.xuxueli.com/page/community.html)
+- [社区交流](http://www.ztc.com/page/community.html)
 
 ### 1.4 环境
 - Servlet/JSP Spec：3.0/2.2
@@ -76,13 +76,13 @@ API管理中心支持集群部署，提升系统可用性。
 
 系统中API以项目为单位进行管理，因此首先需要管理项目；项目管理界面如下图所示；
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img01.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img01.png "在这里输入图片标题")
 
 
 ### 3.1 新建项目
 进入项目管理界面，点击右侧"+新增项目"按钮可新建项目，如下图所示：
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img02.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img02.png "在这里输入图片标题")
 
 项目属性说明：
     
@@ -110,9 +110,9 @@ API管理中心支持集群部署，提升系统可用性。
 
 如下图，点击"左侧接口分组区域"右上角的"+"按钮，可新增AIP接口分组；（点击"全部"将会展示项目中所有分组下的接口；"默认分组"为系统分组，不允许删除；）
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img03.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img03.png "在这里输入图片标题")
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img04.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img04.png "在这里输入图片标题")
 
 接口分组属性说明：
 
@@ -134,14 +134,14 @@ API管理中心支持集群部署，提升系统可用性。
 如下图，在API接口管理界面，点击接口列表顶部的"新增接口"按钮，可进入新增接口界面；
 在新增接口界面，如下图所示，可以设置接口的API状态、请求方法、请求URL、请求头部、请求参数、响应结果、响应结果格式、响应结果参数、API备注等等信息；
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img05.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img05.png "在这里输入图片标题")
 
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img06.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img06.png "在这里输入图片标题")
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img07.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img07.png "在这里输入图片标题")
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img08.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img08.png "在这里输入图片标题")
 
 API属性说明：
 
@@ -183,9 +183,9 @@ Mock数据属性说明：
     数据类型(MIME)：响应结果类型，如JSON、XML等；
     结果数据：响应结果的数据，如响应结果类型为JSON时可设置响应结果数据为一段JSON数据；
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img09.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img09.png "在这里输入图片标题")
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img10.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img10.png "在这里输入图片标题")
 
 - 更新Mock数据
 在"接口详情页"的"Mock数据"模块，点击Mock数据列表右侧的"修改"按钮，可修改Mock数据；
@@ -199,7 +199,7 @@ Mock数据属性说明：
 在"接口详情页"的"Mock数据"模块，点击Mock数据列表右侧的"运行"按钮，可运行Mock数据；
 系统将会为每一条Mock数据生成一个唯一的Mock连接，访问该连接将会按照设置的数据类型如JSON返回对应格式的Mock数据，如下图所示；
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img11.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img11.png "在这里输入图片标题")
 
 
 ### 4.4 API-测试
@@ -209,9 +209,9 @@ Mock数据属性说明：
 该界面将会自动初始化接口URL（测试界面支持选择运行环境，将会自动生成不同环境的完整URL连接）和参数等信息。
 只需要填写测试的参数值，点击下方"运行"按钮，即可发起一次接口请求，请求结果将会在下方显示出来：
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img12.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img12.png "在这里输入图片标题")
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img13.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img13.png "在这里输入图片标题")
 
 - 保存Test历史
 
@@ -230,9 +230,9 @@ Mock数据属性说明：
 
 数据结构属性支持嵌套引用，也支持被复用。
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img14.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img14.png "在这里输入图片标题")
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img15.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img15.png "在这里输入图片标题")
 
 
 ## 六、用户管理
@@ -247,7 +247,7 @@ Mock数据属性说明：
 
 系统初始化时，默认提供了两个示例用户：admin（管理员）、user（普通用户），密码默认为 123456；
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img16.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img16.png "在这里输入图片标题")
 
 
 ## 七、业务线管理
@@ -257,11 +257,11 @@ Mock数据属性说明：
 
 系统初始化时，默认一个业务线 "默认业务线"，可以根据情况调整；
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-api/master/doc/images/doc-img17.png "在这里输入图片标题")
+![输入图片说明](https://raw.githubusercontent.com/ztc/xxl-api/master/doc/images/doc-img19.png "在这里输入图片标题")
 
 
 ## 八、版本更新日志
-### 8.1 版本 V1.0.0，新特性[2017-04-05]
+### 8.1 版本 V1.0.0，新特性[2019-04-05]
 - 1、极致简单：交互简洁，一分钟上手；
 - 2、项目隔离：API以项目为维度进行拆分隔离；
 - 3、分组管理：单个项目内的API支持自定义分组进行管理；
@@ -323,7 +323,7 @@ Mock数据属性说明：
 - 14、接口历史版本功能，记录接口操作变更历史；
 - 15、支持 https 类型接口在线测试，处理接口证书问题；
 - 16、请求头部，除了支持下拉框外，支持手动填写；
-- 17、简化测试页，支持Select方式选择接口，自动填充接口数据并测试；
+- 19、简化测试页，支持Select方式选择接口，自动填充接口数据并测试；
 - 18、接口绑定数据类型时，支持指定标准格式（code、msg、data）；支持自动生成完整数据接口；
 - 19、接口数据类型，自动生成Mock数据，提供Runpath接口根据接口地址自动匹配接口生成Mock数据；
 - 20、可配置参数支持拖动改变顺序；
@@ -336,17 +336,17 @@ Mock数据属性说明：
 ## 九、其他
 
 ### 9.1 项目贡献
-欢迎参与项目贡献！比如提交PR修一个bug，或者新建 [Issue](https://github.com/xuxueli/xxl-api/issues/) 讨论新特性或者变更。
+欢迎参与项目贡献！比如提交PR修一个bug，或者新建 [Issue](https://github.com/ztc/xxl-api/issues/) 讨论新特性或者变更。
 
 ### 9.2 用户接入登记
-更多接入的公司，欢迎在 [登记地址](https://github.com/xuxueli/xxl-api/issues/1 ) 登记，登记仅仅为了产品推广。
+更多接入的公司，欢迎在 [登记地址](https://github.com/ztc/xxl-api/issues/1 ) 登记，登记仅仅为了产品推广。
 
 ### 9.3 开源协议和版权
 产品开源免费，并且将持续提供免费的社区技术支持。个人或企业内部可自由的接入和使用。
 
 - Licensed under the GNU General Public License (GPL) v3.
-- Copyright (c) 2015-present, xuxueli.
+- Copyright (c) 2019-present, ztc.
 
 ---
 ### 捐赠
-无论金额多少都足够表达您这份心意，非常感谢 ：）      [前往捐赠](http://www.xuxueli.com/page/donate.html )
+无论金额多少都足够表达您这份心意，非常感谢 ：）      [前往捐赠](http://www.ztc.com/page/donate.html )

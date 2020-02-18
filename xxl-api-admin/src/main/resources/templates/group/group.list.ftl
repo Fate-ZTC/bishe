@@ -113,7 +113,7 @@
                                             <th width="5%" ><i class="fa fa-star text-yellow"></i></th>
                                             <th width="35%" >URL</th>
                                             <th width="25%" >名称</th>
-                                            <th width="17%" >分组</th>
+                                            <th width="19%" >分组</th>
                                             <th width="18%" >操作</th>
                                         </tr>
                                     </thead>

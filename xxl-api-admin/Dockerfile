@@ -1,5 +1,5 @@
 FROM openjdk:7-jre-slim
-MAINTAINER xuxueli
+MAINTAINER ztc
 
 ENV PARAMS=""
 

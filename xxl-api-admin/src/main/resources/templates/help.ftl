@@ -25,10 +25,10 @@
 				<h4>Api管理平台</h4>
 				<br>
 				<p>
-                    <a target="_blank" href="https://github.com/xuxueli/xxl-api">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<iframe src="https://ghbtns.com/github-btn.html?user=xuxueli&repo=xxl-api&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px" style="margin-bottom:-5px;"></iframe>
+                    <a target="_blank" href="https://github.com/ztc/xxl-api">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<iframe src="https://ghbtns.com/github-btn.html?user=ztc&repo=xxl-api&type=star&count=true" frameborder="0" scrolling="0" width="190px" height="20px" style="margin-bottom:-5px;"></iframe>
 					<br><br>
-                    <a target="_blank" href="http://www.xuxueli.com/xxl-api/">官方文档</a>
+                    <a target="_blank" href="http://www.ztc.com/xxl-api/">官方文档</a>
                     <br><br>
 
 				</p>

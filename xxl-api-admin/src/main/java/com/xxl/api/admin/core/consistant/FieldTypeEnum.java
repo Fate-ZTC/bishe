@@ -1,7 +1,7 @@
 package com.xxl.api.admin.core.consistant;
 
 /**
- * Created by xuxueli on 17/6/2.
+ * Created by ztc on 19/6/2.
  */
 public enum FieldTypeEnum {
 
