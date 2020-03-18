@@ -2,16 +2,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ztc</groupId>
-	<artifactId>xxl-api</artifactId>
+	<artifactId>api</artifactId>
 	<version>1.1.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>${project.artifactId}</name>
-	<description>XXL-API, a api management platform. </description>
+	<description>API, a api management platform. </description>
 	<url>http://www.ztc.com/</url>
 
 	<modules>
-		<module>xxl-api-admin</module>
+		<module>api-admin</module>
 	</modules>
 
 	<properties>
@@ -47,7 +47,7 @@
 		<developer>
 			<id>XXL</id>
 			<name>ztc</name>
-			<email>931591021@qq.com</email>
+			<email>1337142145@qq.com</email>
 			<url>https://github.com/ztc</url>
 		</developer>
 	</developers>
