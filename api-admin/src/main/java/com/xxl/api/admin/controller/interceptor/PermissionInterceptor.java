@@ -29,13 +29,21 @@ public class PermissionInterceptor extends HandlerInterceptorAdapter {
 		}
 
 		// if need login
+		//needLogin对应的权限角色为前端开发人员/测试人员
+		//needAdminuser对应的权限角色为产品经理
+		//needLeader对应的权限角色为开发组长
+		//needDeveloper对应得权限角色为后端开发人员
 		boolean needLogin = true;
 		boolean needAdminuser = false;
+		boolean needLeader = false;
+		boolean needDevloper = false;
 		HandlerMethod method = (HandlerMethod)handler;
 		PermessionLimit permission = method.getMethodAnnotation(PermessionLimit.class);
 		if (permission!=null) {
 			needLogin = permission.limit();
-			needAdminuser = permission.superUser();
+			needDevloper = permission.superUser();
+			needLeader = permission.teamLeader();
+			needAdminuser = permission.projectManager();
 		}
 
 		// if pass

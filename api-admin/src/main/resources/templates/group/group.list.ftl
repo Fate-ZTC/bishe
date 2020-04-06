@@ -31,7 +31,7 @@
                         <div class="box-header with-border">
                             <h3 class="box-title">接口分组</h3>
 
-                            <#if hasBizPermission>
+                            <#if hasBizPermission == 1>
                                 <div class="box-tools">
                                     <button type="button" class="btn btn-box-tool" id="addGroup" ><i class="fa fa-plus"></i></button>
                                 </div>
@@ -83,12 +83,13 @@
                                 </#if>
                             </h3>
 
-                            <#if hasBizPermission>
+                            <#if hasBizPermission == 1 || hasBizPermission == 2>
                                 <#if groupInfo?exists>
                                     &nbsp;&nbsp;
+                                    <#if hasBizPermission == 1>
                                     <button class="btn btn-warning btn-xs" type="button" id="updateGroup" >编辑分组</button>
                                     <button class="btn btn-danger btn-xs" type="button" id="deleteGroup" _id="${groupInfo.id}" _projectId="${groupInfo.projectId}" >删除分组</button>
-                                    |
+                                    |</#if>
                                 </#if>
                                 <button class="btn btn-info btn-xs" type="button" onclick="javascript:window.open('${request.contextPath}/document/addPage?projectId=${projectId}&groupId=${groupId}')" >+新增接口</button>
                                 &nbsp;&nbsp;
@@ -150,10 +151,14 @@
                                                         </#if>
                                                     </td>
                                                     <td class="mailbox-date" >
-                                                        <#if hasBizPermission>
+                                                        <#if hasBizPermission != -1>
+                                                            <#if hasBizPermission == 2>
                                                             <button class="btn btn-warning btn-xs update" onclick="window.location.href='${request.contextPath}/document/updatePage?id=${document.id}'" >编辑</button>
                                                             <button class="btn btn-danger btn-xs deleteDocument" _id="${document.id}" _name="${document.name}" >删除</button>
+                                                            </#if>
+                                                            <#if hasBizPermission ==3 || hasBizPermission ==2>
                                                             <button class="btn btn-primary btn-xs update" onclick="window.open('${request.contextPath}/test?documentId=${document.id}');" >测试</button>
+                                                            </#if>
                                                         </#if>
                                                     </td>
                                                 </tr>

@@ -74,14 +74,23 @@ public class XxlApiGroupController {
 		return "group/group.list";
 	}
 
-	private boolean hasBizPermission(HttpServletRequest request, int bizId){
+	private int hasBizPermission(HttpServletRequest request, int bizId){
 		XxlApiUser loginUser = (XxlApiUser) request.getAttribute(LoginService.LOGIN_IDENTITY);
-		if ( loginUser.getType()==1 ||
+		//只有具有对应业务线权限的开发组长才能进行接口分组操作
+		if (loginUser.getType() == 1 &&
 				ArrayTool.contains(StringTool.split(loginUser.getPermissionBiz(), ","), String.valueOf(bizId))
 				) {
-			return true;
-		} else {
-			return false;
+			return 1;
+		}else if (loginUser.getType() == 2 &&
+				ArrayTool.contains(StringTool.split(loginUser.getPermissionBiz(), ","), String.valueOf(bizId))
+				){
+			return 2;
+		}else if (loginUser.getType() == 3 &&
+				ArrayTool.contains(StringTool.split(loginUser.getPermissionBiz(), ","), String.valueOf(bizId))) {
+			return 3;
+		}
+		else {
+			return -1;
 		}
 	}
 
@@ -95,7 +104,7 @@ public class XxlApiGroupController {
 
 		// 权限校验
 		XxlApiProject xxlApiProject = xxlApiProjectDao.load(xxlApiGroup.getProjectId());
-		if (!hasBizPermission(request, xxlApiProject.getBizId())) {
+		if (hasBizPermission(request, xxlApiProject.getBizId()) == -1) {
 			return new ReturnT<String>(ReturnT.FAIL_CODE, "您没有相关业务线的权限,请联系管理员开通");
 		}
 
@@ -114,7 +123,7 @@ public class XxlApiGroupController {
 
 		// 权限校验
 		XxlApiProject xxlApiProject = xxlApiProjectDao.load(existGroup.getProjectId());
-		if (!hasBizPermission(request, xxlApiProject.getBizId())) {
+		if (hasBizPermission(request, xxlApiProject.getBizId()) == -1) {
 			return new ReturnT<String>(ReturnT.FAIL_CODE, "您没有相关业务线的权限,请联系管理员开通");
 		}
 
@@ -139,7 +148,7 @@ public class XxlApiGroupController {
 
 		// 权限校验
 		XxlApiProject xxlApiProject = xxlApiProjectDao.load(existGroup.getProjectId());
-		if (!hasBizPermission(request, xxlApiProject.getBizId())) {
+		if (hasBizPermission(request, xxlApiProject.getBizId()) == -1) {
 			return new ReturnT<String>(ReturnT.FAIL_CODE, "您没有相关业务线的权限,请联系管理员开通");
 		}
 

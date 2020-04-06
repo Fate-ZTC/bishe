@@ -32,10 +32,14 @@ $(function() {
 					// 用户类型：0-普通用户、1-管理员
 					var htm = '';
 					if (data == 0) {
-						htm = '普通用户';
-					} else {
-						htm = '管理员';
-					}
+						htm = '产品经理';
+					} else if(data == 1) {
+						htm = '开发组长';
+					} else if(data == 2) {
+					    htm = '后端开发人员'
+                    } else{
+					    htm = '测试人员/前端开发人员'
+                    }
 					return htm;
 				}
 			},
@@ -47,7 +51,7 @@ $(function() {
 					return function(){
 
                         var permissionBiz = '';
-                        if (row.type != 1) {
+                        if (row.type != 0) {
                             permissionBiz = '<button class="btn btn-warning btn-xs permissionBiz" type="button">分配业务线权限</button>  ';
                         }
 

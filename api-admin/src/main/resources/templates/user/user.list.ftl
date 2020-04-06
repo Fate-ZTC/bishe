@@ -20,7 +20,7 @@
 	<div class="content-wrapper">
 		<!-- Content Header (Page header) -->
 		<section class="content-header">
-			<h1>用户管理</h1>
+			<h1>人员管理</h1>
 		</section>
 
 		<!-- Main content -->
@@ -30,11 +30,13 @@
 
                 <div class="col-xs-4">
                     <div class="input-group">
-                        <span class="input-group-addon">用户类型</span>
+                        <span class="input-group-addon">人员类型</span>
                         <select class="form-control" id="type">
                             <option value="-1" >默认</option>
-                            <option value="0" >普通用户</option>
-                            <option value="1" >管理员</option>
+                            <option value="0" >产品经理</option>
+                            <option value="1" >开发组长</option>
+                            <option value="2" >后端开发人员</option>
+                            <option value="3" >测试人员/前端开发人员</option>
                         </select>
                     </div>
                 </div>
@@ -49,7 +51,7 @@
                     <button class="btn btn-block btn-info" id="search">搜索</button>
                 </div>
                 <div class="col-xs-2 pull-right">
-                    <button class="btn btn-block btn-success" type="button" id="add" >+新增用户</button>
+                    <button class="btn btn-block btn-success" type="button" id="add" >+新增人员</button>
                 </div>
             </div>
 
@@ -88,7 +90,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-            	<h4 class="modal-title" >新增用户</h4>
+            	<h4 class="modal-title" >新增人员</h4>
          	</div>
          	<div class="modal-body">
 				<form class="form-horizontal form" role="form" >
@@ -101,10 +103,12 @@
                         <div class="col-sm-10"><input type="text" class="form-control" name="password" placeholder="请输入“登录密码”" maxlength="50" value="123456" ></div>
                     </div>
                     <div class="form-group">
-                        <label for="lastname" class="col-sm-2 control-label">用户类型<font color="red">*</font></label>
+                        <label for="lastname" class="col-sm-2 control-label">人员类型<font color="red">*</font></label>
                         <div class="col-sm-10">
-                            <input type="radio" name="type" value="0" checked >普通用户
-                            <input type="radio" name="type" value="1" >管理员
+                            <input type="radio" name="type" value="0" checked >产品经理
+                            <input type="radio" name="type" value="1" >开发组长
+                            <input type="radio" name="type" value="2" >后端开发人员
+                            <input type="radio" name="type" value="3" >测试人员/前端开发人员
 						</div>
                     </div>
 
@@ -145,10 +149,12 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="lastname" class="col-sm-2 control-label">用户类型<font color="red">*</font></label>
+                        <label for="lastname" class="col-sm-2 control-label">人员类型<font color="red">*</font></label>
                         <div class="col-sm-10">
-                            <input type="radio" name="type" value="0" checked >普通用户
-                            <input type="radio" name="type" value="1" >管理员
+                            <input type="radio" name="type" value="0" checked >产品经理
+                            <input type="radio" name="type" value="1" >开发组长
+                            <input type="radio" name="type" value="2" >后端开发人员
+                            <input type="radio" name="type" value="3" >测试人员/前端开发人员
                         </div>
                     </div>
 

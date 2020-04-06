@@ -41,7 +41,7 @@ public class XxlApiDocumentController {
 
 	private boolean hasBizPermission(HttpServletRequest request, int bizId){
 		XxlApiUser loginUser = (XxlApiUser) request.getAttribute(LoginService.LOGIN_IDENTITY);
-		if ( loginUser.getType()==1 ||
+		if ( loginUser.getType()==2 &&
 				ArrayTool.contains(StringTool.split(loginUser.getPermissionBiz(), ","), String.valueOf(bizId))
 				) {
 			return true;

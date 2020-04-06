@@ -24,4 +24,14 @@ public @interface PermessionLimit {
 	 */
 	boolean superUser() default false;
 
+	/**
+	 * 要求产品经理权限
+	 */
+	boolean projectManager() default false;
+
+	/**
+	 * 要求开发组长权限
+	 */
+	boolean teamLeader() default false;
+
 }

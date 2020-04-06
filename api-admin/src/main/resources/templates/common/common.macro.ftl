@@ -118,10 +118,14 @@
 			<ul class="sidebar-menu">
 				<li class="header">导航</li>
 				<li class="nav-click <#if pageName == "projectList">active</#if>" ><a href="${request.contextPath}/project"><i class="fa fa-circle-o text-red"></i> <span>项目管理</span></a></li>
-                <li class="nav-click <#if pageName == "datatype">active</#if>" ><a href="${request.contextPath}/datatype"><i class="fa fa-circle-o text-red"></i> <span>数据类型管理</span></a></li>
-				<#if XXL_API_LOGIN_IDENTITY.type == 1>
-                    <li class="nav-click <#if pageName == "bizList">active</#if>" ><a href="${request.contextPath}/biz"><i class="fa fa-circle-o text-red"></i> <span>业务线管理</span></a></li>
-					<li class="nav-click <#if pageName == "userList">active</#if>" ><a href="${request.contextPath}/user"><i class="fa fa-circle-o text-red"></i> <span>用户管理</span></a></li>
+                <#if XXL_API_LOGIN_IDENTITY.type == 1>
+				<li class="nav-click <#if pageName == "datatype">active</#if>" ><a href="${request.contextPath}/datatype"><i class="fa fa-circle-o text-red"></i> <span>数据类型管理</span></a></li>
+				</#if>
+				<#if XXL_API_LOGIN_IDENTITY.type == 0 || XXL_API_LOGIN_IDENTITY.type == 1>
+					<#if XXL_API_LOGIN_IDENTITY.type == 0>
+					<li class="nav-click <#if pageName == "bizList">active</#if>" ><a href="${request.contextPath}/biz"><i class="fa fa-circle-o text-red"></i> <span>业务线管理</span></a></li>
+					</#if>
+					<li class="nav-click <#if pageName == "userList">active</#if>" ><a href="${request.contextPath}/user"><i class="fa fa-circle-o text-red"></i> <span>人员管理</span></a></li>
 				</#if>
 			</ul>
 		</section>
@@ -130,12 +134,12 @@
 </#macro>
 
 <#macro commonFooter >
-	<footer class="main-footer">
+	<#--<footer class="main-footer">
         Powered by <b>XXL-API</b> 1.1.2-SNAPSHOT
 		<div class="pull-right hidden-xs">
             <strong>Copyright &copy; 2019-${.now?string('yyyy')} &nbsp;
                 <a href="https://github.com/Fate-ZTC/bishe" target="_blank" >github</a>
-            </strong><!-- All rights reserved. -->
+            </strong><!-- All rights reserved. &ndash;&gt;
 		</div>
-	</footer>
+	</footer>-->
 </#macro>

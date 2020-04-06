@@ -202,15 +202,15 @@
 <script src="${request.contextPath}/static/adminlte/plugins/daterangepicker/moment.min.js"></script>
 <script>
     // 业务线权限
-    var superUser = <#if XXL_API_LOGIN_IDENTITY.type == 1 >true<#else>false</#if>;
-    var permissionBiz = '${XXL_API_LOGIN_IDENTITY.permissionBiz!""}';
+    var superUser = <#if XXL_API_LOGIN_IDENTITY.type == 0 >true<#else>false</#if>;
+    //var permissionBiz = '${XXL_API_LOGIN_IDENTITY.permissionBiz!""}';
 
     var permissionBizArr;
     if (permissionBiz) {
         permissionBizArr = $(permissionBiz.split(","));
     };
     function hasBizPermission(bizId) {
-        if ( superUser || $.inArray( bizId+'', permissionBizArr) > -1 ) {
+        if ( superUser) {
             return true;
         } else {
             return false;
