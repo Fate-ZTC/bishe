@@ -70,9 +70,9 @@ $(function() {
 		$(this).parents('.queryParams_item').remove();
 	});
 
-	/*/!**
+	/**
 	 * 响应结果参数，新增一行
-	 *!/
+	 */
 	$('#responseParams_add').click(function () {
 		var html = $('#responseParams_example').html();
 		$('#responseParams_parent').append(html);
@@ -84,12 +84,12 @@ $(function() {
 			$($select2).select2();
 		});
 	});
-	/!**
+	/**
 	 * 响应结果参数，删除一行
-	 *!/
+	 */
 	$('#responseParams_parent').on('click', '.delete',function () {
 		$(this).parents('.responseParams_item').remove();
-	});*/
+	});
 
 	$('#responseDatatypeId').select2({
 		ajax: {

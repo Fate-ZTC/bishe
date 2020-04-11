@@ -124,8 +124,8 @@
 				<#if XXL_API_LOGIN_IDENTITY.type == 0 || XXL_API_LOGIN_IDENTITY.type == 1>
 					<#if XXL_API_LOGIN_IDENTITY.type == 0>
 					<li class="nav-click <#if pageName == "bizList">active</#if>" ><a href="${request.contextPath}/biz"><i class="fa fa-circle-o text-red"></i> <span>业务线管理</span></a></li>
-					</#if>
 					<li class="nav-click <#if pageName == "userList">active</#if>" ><a href="${request.contextPath}/user"><i class="fa fa-circle-o text-red"></i> <span>人员管理</span></a></li>
+					</#if>
 				</#if>
 			</ul>
 		</section>

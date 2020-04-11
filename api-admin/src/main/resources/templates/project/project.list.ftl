@@ -50,9 +50,11 @@
                 <div class="col-xs-2">
                     <button class="btn btn-block btn-info" id="search">搜索</button>
                 </div>
+                <#if XXL_API_LOGIN_IDENTITY.type == 0>
                 <div class="col-xs-2 pull-right">
                     <button class="btn btn-block btn-success" type="button" id="add" >+新增项目</button>
                 </div>
+                </#if>
             </div>
 
 			<div class="row">

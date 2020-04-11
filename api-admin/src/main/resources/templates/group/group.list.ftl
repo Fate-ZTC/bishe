@@ -91,9 +91,11 @@
                                     <button class="btn btn-danger btn-xs" type="button" id="deleteGroup" _id="${groupInfo.id}" _projectId="${groupInfo.projectId}" >删除分组</button>
                                     |</#if>
                                 </#if>
+                                <#if hasBizPermission == 2>
                                 <button class="btn btn-info btn-xs" type="button" onclick="javascript:window.open('${request.contextPath}/document/addPage?projectId=${projectId}&groupId=${groupId}')" >+新增接口</button>
                                 &nbsp;&nbsp;
-                            </#if>
+                                    </#if>
+                                </#if>
 
                             共<#if documentList?exists>${documentList?size}<#else>0</#if>个接口
 

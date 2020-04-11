@@ -191,7 +191,7 @@
                     </div>
                 </div>
 
-                <#--响应结果参数
+                <#--响应结果参数-->
                 <div class="box box-primary">
                     <div class="box-header with-border">
                         <h3 class="box-title">响应结果参数</h3>
@@ -231,9 +231,8 @@
                     <div class="box-body" id="responseParams_parent" >
                     </div>
                 </div>
-                -->
 
-                <#--响应数据类型-->
+                <#--&lt;#&ndash;响应数据类型&ndash;&gt;
                 <div class="box box-primary">
                     <div class="box-header with-border">
                         <h3 class="box-title">响应数据类型</h3>
@@ -250,7 +249,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div>-->
 
 
                 <#-- 接口备注 -->
